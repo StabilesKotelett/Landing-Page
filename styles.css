@@ -1,20 +1,51 @@
 body{
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    align-items: center;
+    
 
+    margin: 0;
+    flex-direction: column;
+    align-self: center;
 
 }
 
 .header {
+
     display: flex;
     flex: 1;
+    flex-direction: row;
+    
+    padding: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 75px;
     background-color: #1f2937;
+    color: rgba(255, 255, 255, 0.993);
+   
 }
 
+.topbar{
 
-.top.middle.box {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.linkbox 
+{
+    display: flex;
+    justify-content:space-between;
+
+}
+
+.link {
+
+padding-left: 10px;
+
+}
+
+.top .middle .box {
+
     background-color: white;
     border: 5px;
     padding: 10px;
@@ -22,7 +53,7 @@ body{
 }
 
 .middle {
- flex: 1;
+
  padding: 10px;
  background-color: #e5e7eb;
  
