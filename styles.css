@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+}
+
+
+.top.middle.box {
+    background-color: white;
+    border: 5px;
+    padding: 10px;
+
+}
+
+.middle {
+ flex: 1;
+ padding: 10px;
+ background-color: #e5e7eb;
+ 
+}
+
